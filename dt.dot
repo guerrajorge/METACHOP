@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Alkaline phosphatase (U/L) <= 168.5\ngini = 0.471\nsamples = 132\nvalue = [82, 50]"] ;
+1 [label="Iron <= 73.5\ngini = 0.32\nsamples = 70\nvalue = [56, 14]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Ferritin (ng/mL) <= 286.5\ngini = 0.473\nsamples = 13\nvalue = [5, 8]"] ;
+1 -> 2 ;
+3 [label="gini = 0.408\nsamples = 7\nvalue = [5, 2]"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 6\nvalue = [0, 6]"] ;
+2 -> 4 ;
+5 [label="Performance Status* <= 2.5\ngini = 0.188\nsamples = 57\nvalue = [51, 6]"] ;
+1 -> 5 ;
+6 [label="gini = 0.109\nsamples = 52\nvalue = [49, 3]"] ;
+5 -> 6 ;
+7 [label="gini = 0.48\nsamples = 5\nvalue = [2, 3]"] ;
+5 -> 7 ;
+8 [label="Haemoglobin (g/dL) <= 13.65\ngini = 0.487\nsamples = 62\nvalue = [26, 36]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Leukocytes(G/L) <= 5.45\ngini = 0.423\nsamples = 46\nvalue = [14, 32]"] ;
+8 -> 9 ;
+10 [label="gini = 0.0\nsamples = 13\nvalue = [0, 13]"] ;
+9 -> 10 ;
+11 [label="gini = 0.489\nsamples = 33\nvalue = [14, 19]"] ;
+9 -> 11 ;
+12 [label="Leukocytes(G/L) <= 11.2\ngini = 0.375\nsamples = 16\nvalue = [12, 4]"] ;
+8 -> 12 ;
+13 [label="gini = 0.0\nsamples = 9\nvalue = [9, 0]"] ;
+12 -> 13 ;
+14 [label="gini = 0.49\nsamples = 7\nvalue = [3, 4]"] ;
+12 -> 14 ;
+}
