@@ -2,8 +2,6 @@
 
 This notebook was provided by Dr. Ryan Urbanowicz to be used during the Math, Engineering and Technology at CHOP (METACHOP) Workshop on June 19th, 2019.
 
-*** 
-# METACHOP Workshop
 * Contributors: Jorge Guerra, Helen Loeb and Remo Williams
 *  Affiliation: Children's Hospital of Philadelphia
 * Date: 05/20/2019
