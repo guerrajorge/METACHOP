@@ -4,8 +4,8 @@ This notebook was provided by Dr. Ryan Urbanowicz to be used during the Math, En
 
 * Contributors: Jorge Guerra, Helen Loeb and Remo Williams
 *  Affiliation: Children's Hospital of Philadelphia
-* Date: 05/20/2019
 * github: https://github.com/guerrajorge/metachop
+* google collab notebook: https://colab.research.google.com/github/guerrajorge/METACHOP/blob/master/METACHOP_ML_Workshop.ipynb
 
 ***
 # Machine Learning (ML) 102 Workshop
